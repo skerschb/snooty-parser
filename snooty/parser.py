@@ -22,7 +22,6 @@ import networkx
 
 from .flutter import check_type, LoadError
 from . import n, gizaparser, rstparser, util
-from .n import DefinitionList
 from .gizaparser.nodes import GizaCategory
 from .gizaparser.published_branches import PublishedBranches
 from .postprocess import DevhubPostprocessor, Postprocessor
